@@ -7,7 +7,7 @@ namespace record_orderId
         static void Main(string[] args)
         {
             var order = new OrderHandler();
-            order.pathToJson = @".\Test.json";
+            order.pathToJson = @".\OrderLog.json";
 
             //Driver data
             order.record(1);
